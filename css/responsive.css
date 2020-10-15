@@ -1,0 +1,144 @@
+/* TABLET */
+@media screen and (max-width: 1000px){
+   .top-wrapper .borderbox{
+     width: 100%;
+   }
+ 
+   .top-wrapper{
+     text-align: center;
+     padding-top: 140px;
+     background-color: black;
+     height: 100%;
+     width: 100%;
+   }
+   .btn{
+     width: 100%;
+     text-align: center;
+   }
+
+   /*----------Awal CSS List Product----------*/
+
+   .product-wrapping .heading-product {
+      font-size: 175%;
+    }
+
+    .product-wrapping .list-product .product .product-name {
+      font-size: 135%;
+    }
+
+    .product-wrapping .list-product .product .btn-shop {
+      font-size: 100%;
+    }
+
+   /*----------Akhir CSS List Product----------*/
+
+   footer {
+     width: 100%;
+     margin-top: 250px;
+   }
+
+}
+
+ /*Smartphone*/
+ @media screen and (max-width: 670px) {
+   .top-wrapper{
+     text-align: center;
+     padding-top: 140px;
+     background-color: black;
+     height: 100%;
+     width: 100%;
+   }
+   .top-wrapper h1 {
+     font-size: 30px;
+     letter-spacing: 3px;
+     margin-bottom: 10px;
+   }
+ 
+   .header-right{
+     display: none;
+   }
+ 
+   .menu-icon{
+     display: block;
+     cursor: pointer;
+   }
+ 
+   .logo{
+     width: 124px;
+   }
+   .btn{
+     width: 100%;
+   }
+   .top-wrapper .borderbox{
+     width: 100%;
+   }
+   .profile img {
+      width: 100%;
+   }
+
+   .profile .text {
+      width: 100%;
+   }
+
+   .profile {
+     height: 600px;
+     padding-bottom: 500px;
+   }
+
+   .menu-footer {
+     width: 50%;
+   }
+
+   footer {
+    padding-bottom: 300px;
+   }
+
+   footer h2 {
+     font-size: 22px;
+   }
+
+   .menu-footer p {
+    font-size: 12px;
+  }
+
+  /*----------Awal CSS List Product----------*/
+
+   .product-wrapping .heading-product {
+      font-size: 150%;
+    }
+
+    .product-wrapping .list-product {
+      flex-direction: column;
+    }
+
+    .product-wrapping .list-product .product.awal {
+      margin-left: auto;
+    }
+
+    .product-wrapping .list-product .product {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .product-wrapping .list-product .product.akhir {
+      margin-right: auto;
+    }
+
+    .product-wrapping .list-product .product .product-name {
+      font-size: 130%;
+    }
+
+    .product-wrapping .list-product .product .btn-shop {
+      font-size: 95%;
+    }
+
+    .testimoni {
+      margin-top: 250px;
+    }
+
+    footer {
+      margin-top: -50px;
+    }
+}
+  /*----------Akhir CSS List Product----------*/
